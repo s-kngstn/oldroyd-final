@@ -676,6 +676,16 @@ footer .social-links {
   background-attachment: fixed;
   position: relative;
 }
+
+@media (max-width: 46.875em) {
+  .header {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(74, 96, 110, 1),
+      rgba(74, 96, 110, 1)
+    );
+  }
+}
 .header__text-box {
   position: absolute;
   top: 45%;
@@ -764,8 +774,8 @@ footer .social-links {
 }
 @media (max-width: 62.37em) and (max-width: 37.5em) {
   .navigation__button {
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
   }
 }
 
@@ -783,8 +793,8 @@ footer .social-links {
 }
 @media (max-width: 62.37em) and (max-width: 37.5em) {
   .navigation__background {
-    top: 2.5rem;
-    right: 2.5rem;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 }
 
@@ -919,6 +929,16 @@ footer .social-links {
   background-attachment: fixed;
   position: relative;
 }
+
+@media (max-width: 46.875em) {
+  .section-meat-free {
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-image: none;
+    background-color: #4a606e;
+  }
+}
+
 .section-meat-free__text-box {
   position: absolute;
   top: 45%;
