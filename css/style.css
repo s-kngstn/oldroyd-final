@@ -112,9 +112,7 @@ body {
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 500;
-  background-image: linear-gradient(to bottom, #4a606e, #4a606e);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #4a606e;
   letter-spacing: 0.2rem;
 }
 @media (max-width: 62.37em) {
@@ -142,9 +140,7 @@ body {
   margin-top: 2rem;
 }
 .heading-secondary--white {
-  background-image: linear-gradient(to bottom, #fff, #fff);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #fff;
 }
 .heading-secondary--white::after {
   background-color: #b2a566;
