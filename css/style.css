@@ -677,7 +677,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (max-width: 46.875em) {
+@media (max-width: 62.37em) {
   .header {
     background-image: linear-gradient(
       to bottom,
@@ -930,7 +930,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (max-width: 46.875em) {
+@media (max-width: 62.37em) {
   .section-meat-free {
     /* background-size: contain;
     background-repeat: no-repeat; */
@@ -984,7 +984,7 @@ footer .social-links {
     padding: 5rem 0 15rem 0;
   }
 }
-@media (max-width: 46.875em) {
+@media (max-width: 62.37em) {
   .section-menu {
     background-color: #4a606e;
     padding: 5rem 0 5rem 0;
