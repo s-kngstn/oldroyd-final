@@ -417,7 +417,7 @@ body {
   font-size: 5rem;
   text-transform: uppercase;
 }
-@media (max-width: 62.37em) {
+@media (max-width: 86.37em) {
   .card {
     height: auto;
   }
@@ -677,7 +677,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (max-width: 62.37em) {
+@media (max-width: 86.37em) {
   .header {
     background-image: linear-gradient(
       to bottom,
@@ -930,7 +930,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (max-width: 62.37em) {
+@media (max-width: 86.37em) {
   .section-meat-free {
     /* background-size: contain;
     background-repeat: no-repeat; */
