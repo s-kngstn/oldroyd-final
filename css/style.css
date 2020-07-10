@@ -677,7 +677,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (min-width: 65.625em) {
+@media (min-width: 75em) {
   .header {
     background-image: linear-gradient(
         to bottom,
@@ -943,7 +943,7 @@ footer .social-links {
   position: relative;
 }
 
-@media (min-width: 65.625em) {
+@media (min-width: 75em) {
   .section-meat-free {
     background-image: linear-gradient(
         to bottom,
