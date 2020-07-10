@@ -672,8 +672,8 @@ footer .social-links {
     ),
     url('../img/rsz_storefront-hero.jpg');
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: 85% 50%;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -685,6 +685,8 @@ footer .social-links {
         rgba(74, 96, 110, 0.9)
       ),
       url('../img/storefront-hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
@@ -936,8 +938,8 @@ footer .social-links {
     ),
     url('../img/rsz_meatfreemondays.jpg');
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: 85% 50%;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -949,6 +951,8 @@ footer .social-links {
         rgba(0, 0, 0, 0.4)
       ),
       url('../img/meatfreemondays.jpg');
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
