@@ -614,12 +614,12 @@ footer .social-links {
 }
 @media (max-width: 62.37em) {
   .row {
-    max-width: 45rem;
+    max-width: 42rem;
   }
 }
 @media (max-width: 23.4375em) {
   .row {
-    max-width: 35rem;
+    max-width: 32rem;
   }
 }
 .row::after {
