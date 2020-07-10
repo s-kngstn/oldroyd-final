@@ -619,7 +619,7 @@ footer .social-links {
 }
 @media (max-width: 23.4375em) {
   .row {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 }
 .row::after {
@@ -670,14 +670,25 @@ footer .social-links {
       rgba(74, 96, 110, 0.9),
       rgba(74, 96, 110, 0.9)
     ),
-    url('../img/storefront-hero.jpg');
+    url('../img/rsz_storefront-hero.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
 }
 
-@media (max-width: 86.37em) {
+@media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+  .header {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(74, 96, 110, 0.9),
+        rgba(74, 96, 110, 0.9)
+      ),
+      url('../img/storefront-hero.jpg');
+  }
+}
+
+/* @media (max-width: 86.37em) {
   .header {
     background-image: linear-gradient(
       to bottom,
@@ -685,7 +696,7 @@ footer .social-links {
       rgba(74, 96, 110, 1)
     );
   }
-}
+} */
 .header__text-box {
   position: absolute;
   top: 45%;
@@ -923,21 +934,32 @@ footer .social-links {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url('../img/meatfreemondays.jpg');
+    url('../img/rsz_meatfreemondays.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
 }
 
-@media (max-width: 86.37em) {
+@media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+  .section-meat-free {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url('../img/meatfreemondays.jpg');
+  }
+}
+
+/* @media (max-width: 86.37em) {
   .section-meat-free {
     /* background-size: contain;
     background-repeat: no-repeat; */
-    background-image: none;
+/* background-image: none;
     background-color: #4a606e;
   }
-}
+} */
 
 .section-meat-free__text-box {
   position: absolute;
